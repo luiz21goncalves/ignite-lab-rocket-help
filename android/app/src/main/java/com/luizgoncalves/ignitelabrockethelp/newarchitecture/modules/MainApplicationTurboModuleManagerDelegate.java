@@ -1,4 +1,4 @@
-package com.ignitelabrockethelp.newarchitecture.modules;
+package com.luizgoncalves.ignitelabrockethelp.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

@@ -1,4 +1,4 @@
-package com.ignitelabrockethelp;
+package com.luizgoncalves.ignitelabrockethelp;
 
 import android.os.Build;
 import android.os.Bundle;

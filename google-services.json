@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "19293767978",
+    "project_id": "ignite-lab-rocket-help",
+    "storage_bucket": "ignite-lab-rocket-help.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19293767978:android:9726c730ffc8aaa2a93653",
+        "android_client_info": {
+          "package_name": "com.luizgoncalves.ignitelabrockethelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19293767978-75lt71ieam71ro6jv3cl3m8fi5gg26hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbjvczQuDdszv-6a-bHbw6xRh9MZjoU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19293767978-75lt71ieam71ro6jv3cl3m8fi5gg26hh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19293767978-vglal35l41keb2fkhdh5615lfrue96nj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.luizgoncalves.ignitelabrockethelp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
