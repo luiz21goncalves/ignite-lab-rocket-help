@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Alert } from 'react-native';
 import {
   HStack,
   IconButton,
@@ -11,6 +12,7 @@ import {
 } from "native-base";
 import { ChatTeardropText, SignOut } from "phosphor-react-native";
 import { useNavigation } from "@react-navigation/native";
+import auth from '@react-native-firebase/auth'
 
 import { Filter } from "../../components/Filter";
 import { Order, OrderType } from "../../components/Order";
@@ -39,6 +41,15 @@ export function Home() {
     navigation.navigate('details', { orderId })
   }
 
+  function handleLogout() {
+    auth()
+      .signOut()
+      .catch((error) => {
+        console.error(error)
+        return Alert.alert('Sair', 'Não foi possível sair')
+      })
+  }
+
   return (
     <VStack flex={1} pb={6} bg="gray.700">
       <HStack
@@ -54,6 +65,7 @@ export function Home() {
 
         <IconButton
           icon={<SignOut size={26} color={colors.gray[300]} />}
+          onPress={handleLogout}
         />
       </HStack>
 
