@@ -13,7 +13,7 @@ export function Details() {
 
   return (
     <VStack flex={1} bg="gray.700">
-      <Header title="solicitação" />
+      <Header title="Solicitação" />
       <Text color="white">{orderId}</Text>
     </VStack>
   )

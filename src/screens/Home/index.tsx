@@ -65,7 +65,7 @@ export function Home() {
           justifyContent="space-between"
           alignItems="center"
         >
-          <Heading color="gray.100">Meus chamados</Heading>
+          <Heading color="gray.100">Solicitação</Heading>
           <Text color="gray.200">3</Text>
         </HStack>
 
